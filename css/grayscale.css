@@ -139,6 +139,10 @@ a:focus {
   background: url(../img/history.jpg) no-repeat bottom center scroll;
   background-size: cover;
 }
+.intro-pilots {
+  background: url(../img/pilots.jpg) no-repeat bottom center scroll;
+  
+}
 .history-img {
   max-width: 400px;
   margin: 0 auto;
