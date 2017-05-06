@@ -49,6 +49,19 @@ a:focus {
   text-decoration: none;
   color: #1d9b6c;
 }
+
+table thead {
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+table td {
+  padding: 10px;
+}
+
+table tbody, table tbody tr td {
+      border: 1px solid #ccc;
+}
 .light {
   font-weight: 400;
 }
@@ -141,7 +154,12 @@ a:focus {
 }
 .intro-pilots {
   background: url(../img/pilots.jpg) no-repeat bottom center scroll;
+  background-size: cover;
   
+}
+
+.pilot-name {
+  margin-top: 30px;
 }
 .history-img {
   max-width: 400px;
@@ -243,7 +261,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
